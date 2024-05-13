@@ -630,7 +630,7 @@ function __wbg_get_imports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper2073 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper2072 = function(arg0, arg1, arg2) {
         const ret = makeClosure(arg0, arg1, 175, __wbg_adapter_20);
         return addHeapObject(ret);
     };

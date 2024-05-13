@@ -9,7 +9,8 @@
 # うーんわからん！！！
 
 # メモ
-* tailwindcss -c ./tailwind.config.js -o ./tailwind.css --minify
+* tailwindcss -c ./tailwind.config.js -i ./src/custom.css -o ./tailwind.css --minify
 
 * [Tailwind CSS 入門と実践](https://zenn.dev/yohei_watanabe/books/c0b573713734b9/viewer/dffdcd)
 
+* Tailwind のデザインわからんカラーパレット探しにくすぎるぜ～
