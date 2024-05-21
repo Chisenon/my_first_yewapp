@@ -3,12 +3,32 @@
 @tailwind utilities;
 
 @layer utilities {
+    /* これはスクロールを消す？ */
     .hidden-scrollbar {
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
+    
     .hidden-scrollbar::-webkit-scrollbar {
         display: none;
     }
+
+    /* これがCSSをまとめる方法 */
+    .chisenon_color {
+        @apply text-red-500 text-[24px];
+    }
 }
 
+
+/*
+
+base
+html要素やbody要素に指定する、ルールのリセットやデフォルトスタイル。
+
+components
+レイアウト用のコンテナや、ボタンやカードといったコンポーネント単位のスタイル。
+
+utilities
+小さな単一目的のスタイル。サイズやカラー等の細かなスタイル。
+
+*/
