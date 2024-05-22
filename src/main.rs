@@ -1,4 +1,7 @@
 use yew::{classes, function_component, html, Html};
+use components::counter::Counter;
+
+mod components;
 
 #[function_component(App)]
 fn app() -> Html {
@@ -26,14 +29,14 @@ fn app() -> Html {
                 <a href="https://x.com/home" target="_blank" class={classes!("bg-blue-500", "hover:bg-blue-700", "text-white", "font-bold", "py-10", "px-20", "border", "border-blue-700", "rounded", "text-[24px]")}>
                     {"ついーのんする"}
                 </a>
-                <p class={classes!("text-white", "text-1xl", "flex", "justify-center")}>
-                    {"※機能未実装※"}
-                </p>
             </div>
-            
+
+            // カウンター
+            <Counter />
+
 
             <div class={classes!()}>
-                <a href="https://www.google.com" target="_blank" class={classes!("text-white", "text-[24px]", "font-bold", "mx-auto")}>
+                <a href="https://mk22.booth.pm/items/2953001" target="_blank" class={classes!("text-white", "text-[24px]", "font-bold", "mx-auto")}>
                     {"セフィラちゃんはいいぞ"}
                 </a>
             </div>
